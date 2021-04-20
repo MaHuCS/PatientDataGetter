@@ -35,20 +35,21 @@ A seperate Excel file is automatically generated for each database table that ex
 1. Open Windows Powershell from the windows start menu
 2. From command line enter the following commands
 
-'''
-mkdir patient_light_therapy [enter] 
-% This creates a folder directory named "patient_light_therapy"
+```
+> mkdir patient_light_therapy [enter] 
+# This creates a folder directory named "patient_light_therapy"
 
-cd .\patient_light_therapy\ [enter]
-% This navigates you into the folder you had just created
+> cd .\patient_light_therapy\ [enter]
+# This navigates you into the folder you had just created
 
-pip3 install python 3.7 [enter] 
-pip3 install mysql [enter]
-pip3 install mysql-connector [enter]
-pip3 install mysql-connector-python3 [enter]
-pip3 install requests [enter]
-% You have now installed all the required software to run the patient_data_getter.py script
-'''
+> pip3 install python 3.7 [enter] 
+> pip3 install mysql [enter]
+> pip3 install mysql-connector [enter]
+> pip3 install mysql-connector-python3 [enter]
+> pip3 install requests [enter]
+# You have now installed all the required software to run the patient_data_getter.py script
+```
+
 3. Now you may exit the windows powershell terminal and navigate to the folder you have created in the file explorer
 4. You should see the script named **patient_data_getter.py**. To run the python script and generate excel files with the patient light therapy data, double-click **patient_data_getter.py** to run. The excel files should be generated in the same file location.
 
